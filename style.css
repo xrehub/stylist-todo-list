@@ -14,15 +14,15 @@
 
 /* Color Palette */
 
-/* Specify for All */
+/* Stylist for All */
 
 *{
     box-sizing: border-box;
 }
 
-/* Specify for All */
+/* Stylist for All */
 
-/* Specify for body element */
+/* Stylist for body element */
 
 body {
     margin: 0;
@@ -35,7 +35,9 @@ body {
     margin-top: 50px;
 }
 
-/* Specify for body element */
+/* Stylist for body element */
+
+/* Stylist main content wihout list wrap*/
 
 .main_content {
     width: 400px;
@@ -74,6 +76,10 @@ body {
     color: gray;
 }
 
+/* Stylist main content wihout list wrap*/
+
+/* Stylist for list wrap */
+
 .list_wrap > .action_ {
     margin-top: 5px;
 }
@@ -86,7 +92,7 @@ body {
     position: relative;
 }
 
-
+/* Stylist for list wrap */
 
 /* Stylist Action 1 */
 
@@ -118,6 +124,8 @@ img {
     cursor: pointer;
 }
 
+/* Stylist Action 1 */
+
 /* Stylist Action 2 */
 
 .task_2 {
@@ -148,7 +156,10 @@ img {
     height: 20px;
     width: 20px;
     top: 15px;
-    left: 300px;}
+    left: 300px;
+}
+
+/* Stylist Action 2 */
 
 /* Stylist Action 3 */
 
@@ -174,6 +185,8 @@ img {
     background-color:rgb(125, 125, 125);
     cursor: pointer;
 }
+
+/* Stylist Action 3 */
 
 /* Stylist Action 4 */
 
@@ -205,3 +218,6 @@ img {
 ._four {
     background-color: var(--main-color-task_4-img);
 }
+
+
+/* Stylist Action 4 */
